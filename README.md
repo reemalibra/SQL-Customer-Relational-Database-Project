@@ -1,12 +1,10 @@
 **#Customer Orders Relational Database (Oracle SQL)**
-Developed a relational database using Oracle SQL to organize and manage customer, order, and address infromation. Designed MULTIPLE RELATED TABLES WITH PRIMARY AND FOREIGN KEY constraints to maintain data integrity and used SQL commands for table creation, data insertion, and updates. This project enhanced my understanding of relational database design, normalization, and how SQL supports real-world data organization and accuracy.
+Developed a relational database using Oracle SQL to organize and manage customer, order, and address infromation. Designed multiple related tables with primary and foreign key constraints to maintain data integrity and used SQL commands for table creation, data insertion, and updates. This project enhanced my understanding of relational database design, normalization, and how SQL supports real-world data organization and accuracy.
 
 **View project on Oracle Live SQL**
 https://livesql.oracle.com/ords/livesql/s/c4ii254ipfpoql82fvtc4q4rh
 
-REM   Script: Relational Database Management Project (Oracle SQL)
-REM   SQL project demonstrating relational database management using Oracle Live SQL. Includes table creation, constraints (PRIMARY KEY, FOREIGN KEY), data insertion, transaction control (COMMIT), and constraint modification using ALTER and DROP commands.
-
+**SQL Script - Table Creation and Relationships**
 CREATE TABLE Customers ( 
     customer_id NUMBER(10), 
     last_name VARCHAR2(50) NOT NULL, 
